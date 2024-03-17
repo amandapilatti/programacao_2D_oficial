@@ -1,5 +1,5 @@
 .cabecalho{
-    background-color: #483858;
+    background-color: #252222;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -20,12 +20,12 @@
     padding: 0;
 }
 
-.scola-imagem{
+.escola-imagem{
     width: 25%;
 }
 
 .escola{
-    background-image: linear-gradient(#483858, #9500eb);
+    background-image: linear-gradient(#252222, #0e0d0d);
     color: white;
     display: flex;
     justify-content: center;
@@ -40,3 +40,18 @@
 .escola-titulo{
     padding: 24px 0;
 }
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
