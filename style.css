@@ -4,6 +4,10 @@
     display: flex;
     justify-content: space-around;
 }
+body{
+    font-family: 'poppins', sans-serif;
+}
+
 
 .cabecalho-imagem{
     width: 20%;
@@ -35,6 +39,7 @@
 
 .escola-conteudo{
     width: 35%;
+    font-size: 1.1em;
 }
 
 .escola-titulo{
@@ -55,6 +60,9 @@
     grid-template-columns: 20% 20% 20% 20%;
 }
 
-.estudante-imagem{
-    width: 45%;
+footer{
+    background-color: black;
+    padding: 15px 0;
+    text-align: center;
 }
+
